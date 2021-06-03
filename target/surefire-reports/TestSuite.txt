@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 201.946 s <<< FAILURE! - in TestSuite
+Academy.E2EProject.HomePage.Homepagenav[geeta08, 12345](2)  Time elapsed: 29.862 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (994, 15). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-O19JB3S', ip: '192.168.0.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\rawat\AppData\Local\Temp\scoped_dir5908_435177152}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50926}, acceptInsecureCerts=false, browserVersion=90.0.4430.212, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 3e863e97744df213a2a068a11676874c
+	at Academy.E2EProject.HomePage.Homepagenav(HomePage.java:43)
+
+Academy.E2EProject.validateTitle.validateAppTitle  Time elapsed: 0.138 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED CO123URSES] but found [FEATURED COURSES]
+	at Academy.E2EProject.validateTitle.validateAppTitle(validateTitle.java:41)
+

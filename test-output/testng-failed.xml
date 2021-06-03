@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.E2EProject.Listeners"/>
+  </listeners>
+  <test name="Validating user login(failed)">
+    <classes>
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="initialise"/>
+          <include name="closebrowser"/>
+          <include name="Homepagenav" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+      <class name="Academy.E2EProject.validateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.validateTitle -->
+    </classes>
+  </test> <!-- Validating user login(failed) -->
+  <test name="Validating title on the page(failed)">
+    <classes>
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="initialise"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+      <class name="Academy.E2EProject.validateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="validateAppTitle"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.validateTitle -->
+    </classes>
+  </test> <!-- Validating title on the page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

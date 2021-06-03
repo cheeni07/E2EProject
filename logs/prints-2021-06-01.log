@@ -1,0 +1,8 @@
+23:27:50.275 [main] INFO  Academy.E2EProject.HomePage - URL is fetched
+23:27:51.830 [main] INFO  Academy.E2EProject.HomePage - Driver closed
+23:28:02.816 [main] INFO  resources.Base - Driver is initialized
+23:28:35.256 [main] INFO  resources.Base - Navigated to Home page
+23:31:36.089 [main] INFO  Academy.E2EProject.HomePage - Driver is initiated
+23:32:10.945 [main] INFO  Academy.E2EProject.HomePage - URL is fetched
+23:32:16.796 [main] INFO  Academy.E2EProject.HomePage - URL is fetched
+23:32:28.936 [main] INFO  Academy.E2EProject.HomePage - URL is fetched

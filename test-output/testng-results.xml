@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49181" started-at="2021-06-02T07:48:37Z" finished-at="2021-06-02T07:49:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49181" started-at="2021-06-02T07:48:37Z" finished-at="2021-06-02T07:49:26Z">
+      <class name="Academy.E2EProject.HomePage">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Academy.E2EProject.HomePage@3023df74]" name="initialise" is-config="true" duration-ms="23707" started-at="2021-06-02T13:18:37Z" finished-at="2021-06-02T13:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="Homepagenav(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@3023df74]" name="Homepagenav" duration-ms="13759" started-at="2021-06-02T13:19:01Z" data-provider="getdata" finished-at="2021-06-02T13:19:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhishek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1267]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepagenav -->
+        <test-method status="PASS" signature="Homepagenav(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@3023df74]" name="Homepagenav" duration-ms="5396" started-at="2021-06-02T13:19:15Z" data-provider="getdata" finished-at="2021-06-02T13:19:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[geeta08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepagenav -->
+        <test-method status="PASS" signature="Homepagenav(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@3023df74]" name="Homepagenav" duration-ms="4698" started-at="2021-06-02T13:19:20Z" data-provider="getdata" finished-at="2021-06-02T13:19:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jeremy1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepagenav -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Academy.E2EProject.HomePage@3023df74]" name="closebrowser" is-config="true" duration-ms="1483" started-at="2021-06-02T13:19:25Z" finished-at="2021-06-02T13:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
